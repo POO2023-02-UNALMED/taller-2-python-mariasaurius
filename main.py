@@ -46,7 +46,7 @@ class Auto:
         #Como el atributo motor es tambien un objeto, escribimos el atributo que queremos acceder
         if self.registro == self.motor.registro:
             for elemento in self.asientos:
-                if elemento != self.registro:
+                if elemento.registro != self.registro:
                     return("Las piezas no son originales")
                 else:
                     return("Auto original")
