@@ -25,7 +25,7 @@ class Auto:
         self.asientos = asientos
         self.marca = marca
         #Al atributo motor, estamos asignando un objeto de la clase Motor
-        self.motor = Motor
+        self.motor = motor
         self.registro = registro
 
      def cantidadAsientos(self):
